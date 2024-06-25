@@ -1,0 +1,37 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.profile-table {
+  width: 80%;
+  max-width: 1200px;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-table {
+  width: 100%;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #1677ff;
+  color: white;
+}
+
+.ant-table-footer {
+  text-align: right;
+}
+
+.ant-input,
+.ant-select,
+.ant-picker {
+  width: 100%;
+}

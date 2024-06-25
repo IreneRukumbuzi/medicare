@@ -1,0 +1,22 @@
+nav {
+  background-color: #1677ff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-right a:hover {
+  color: #f0f2f5;
+}
